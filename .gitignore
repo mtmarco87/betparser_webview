@@ -71,4 +71,5 @@ fabric.properties
 .idea/*
 build/*
 app/build/*
-
+app/release/*
+app/debug/*
