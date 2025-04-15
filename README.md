@@ -1,24 +1,55 @@
 # BetParser WebView
 
-BetParser WebView is a lightweight Android application designed to encapsulate the BetParser Angular WebApp within a WebView. This app serves as a bridge to provide a native-like experience for users accessing the BetParser web application on Android devices.
+BetParser WebView is an Android app that allows users to monitor live bets and analyze surebets/valuebets in real time, offering a native-like experience for accessing the BetParser web application.
 
-## Key Features
+## Disclaimer
 
-- **WebView Integration**: Displays the BetParser Angular WebApp seamlessly within an Android WebView.
-- **LocalStorage Support**: Ensures user preferences and session data are preserved.
-- **Screen Orientation Handling**: Supports smooth transitions during screen flips.
-- **Session Persistence**: Saves and restores the WebView state during app lifecycle events.
-- **Back Button Functionality**: Implements a working back button to navigate within the WebView or exit the app.
+This software is provided for educational and research purposes only. The authors of this project do not condone or encourage any illegal activities, including but not limited to unauthorized data scraping or infringement of intellectual property rights.
+
+All trademarks, logos, and brand names mentioned in this project (e.g., Bwin, Bet365, William Hill, Sisal, Eurobet, etc.) are the property of their respective owners. The use of these names is for identification purposes only and does not imply endorsement or affiliation.
+
+By using this software, you agree that the authors are not liable for any misuse or legal consequences arising from its use. It is your responsibility to ensure compliance with all applicable laws and regulations in your jurisdiction.
 
 ## Table of Contents
 
-1. [Environment Setup](#environment-setup)
-2. [Android Studio IDE Configuration](#android-studio-ide-configuration)
-3. [Debugging](#debugging)
-4. [How It Works](#how-it-works)
-5. [Permissions](#permissions)
-6. [Project Structure](#project-structure)
-7. [License](#license)
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Screenshots](#screenshots)
+4. [Environment Setup](#environment-setup)
+5. [Android Studio IDE Configuration](#android-studio-ide-configuration)
+6. [Debugging](#debugging)
+7. [How It Works](#how-it-works)
+8. [Permissions](#permissions)
+9. [Project Structure](#project-structure)
+10. [License](#license)
+
+## Project Overview
+
+BetParser WebView bridges the gap between the [BetParser Angular WebApp](https://github.com/mtmarco87/betparser_webapp.git) and Android devices by embedding the web application into a native-like environment. This app is tailored for bettors and analysts who need a reliable and efficient tool for live bets monitoring and surebets/valuebets analysis.
+
+The app provides key features such as session persistence and improved navigation to enhance usability, making it robust for real-time betting insights. By combining simplicity with essential functionality, BetParser WebView delivers a smooth and intuitive experience for its users.
+
+## Features
+
+- **WebView Integration**: Displays the BetParser Angular WebApp seamlessly within an Android WebView.
+- **LocalStorage Support**: Ensures user preferences and session data are preserved.
+- **Session Persistence**: Saves and restores the WebView state during app lifecycle events.
+- **Screen Orientation Handling**: Supports smooth transitions during screen flips.
+
+## Screenshots
+
+Here are some screenshots of the BetParser WebView in action:
+
+<img src="assets/screenshots/webview-1.png" alt="Home Page" width="300">
+
+### Live Odds Analysis
+
+<img src="assets/screenshots/webview-2.png" alt="Live Odds Analysis 1" width="300">
+<img src="assets/screenshots/webview-3.png" alt="Live Odds Analysis 2" width="300">
+
+### SureBets Detection
+
+<img src="assets/screenshots/webview-4.png" alt="SureBets Detection" width="300">
 
 ## Environment Setup
 
@@ -65,4 +96,4 @@ The app requires the following permission:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](LICENSE). See the `LICENSE` file for details.
