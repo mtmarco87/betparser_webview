@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BetParser</string>
+    <string name="betparser_webapp_url">https://example.com/betparser</string>
 </resources>

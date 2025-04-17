@@ -23,10 +23,10 @@ public class MainActivity extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
         webSettings.setDomStorageEnabled(true);
 
-        if (savedInstanceState == null)
-        {
-            // Prod
-            mWebView.loadUrl("https://parser-b8114.firebaseapp.com/");
+        if (savedInstanceState == null) {
+            // Load BetParser WebApp url
+            String webAppUrl = getString(R.string.betparser_webapp_url);
+            mWebView.loadUrl(webAppUrl);
         }
     }
 
